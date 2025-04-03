@@ -1,11 +1,11 @@
 public class Rua {
-    private Intersecao comeco;     // Interseção de Origem
-    private Intersecao fim;        // Inyterseção de Destino
+    private Interseccao comeco;     // Interseção de Origem
+    private Interseccao fim;        // Inyterseção de Destino
     private double comprimento;    // Comprimento da Rua
     private int capacidade;        // Capacidade Máxima de Veículos
     private double tempoTravessia; // Tempode travessia
 
-    public Rua(Intersencao comeco, Intersencao fim, double comeprimento, int capacidade, double tempoTravessia){
+    public Rua(Interseccao comeco, Interseccao fim, double comeprimento, int capacidade, double tempoTravessia){
         this.comeco = comeco;
         this.fim = fim;
         this.comprimento = comprimento;
@@ -13,19 +13,19 @@ public class Rua {
         this.tempoTravessia = tempoTravessia;
     }
 
-    public Intersecao getComeco() {
+    public Interseccao getComeco() {
         return comeco;
     }
 
-    public void setComeco(Intersecao comeco) {
+    public void setComeco(Interseccao comeco) {
         this.comeco = comeco;
     }
 
-    public Intersecao getFim() {
+    public Interseccao getFim() {
         return fim;
     }
 
-    public void setFim(Intersecao fim) {
+    public void setFim(Interseccao fim) {
         this.fim = fim;
     }
 
