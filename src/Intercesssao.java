@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public class Intercesssao {
+    private int id; // identificador da interseção
+
 }
