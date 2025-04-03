@@ -4,7 +4,7 @@ public class Interseccao {
 
     public Interseccao(int id) {
         this.id = id;
-        this.semaforo = new Semaforo();
+        this.semaforo = new Semaforo(); // Inicializa um semaforo padrao
     }
 
     public int getId() {

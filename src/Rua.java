@@ -5,7 +5,7 @@ public class Rua {
     private int capacidade;        // Capacidade Máxima de Veículos
     private double tempoTravessia; // Tempode travessia
 
-    public Rua(Interseccao comeco, Interseccao fim, double comeprimento, int capacidade, double tempoTravessia){
+    public Rua(Interseccao comeco, Interseccao fim, double comprimento, int capacidade, double tempoTravessia){
         this.comeco = comeco;
         this.fim = fim;
         this.comprimento = comprimento;
